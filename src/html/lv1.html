@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<!-- saved from url=(0048)http://www.fadmin.cn/web/HomeAction_logins.xhtml -->
+<html lang="ch-zn">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
+		<link rel="shortcut icon" href="http://www.fadmin.cn/page/login/images/lykjfavicon.ico">
+		<link rel="stylesheet" type="text/css" href="../assets/css/login.css">
+		<meta name="robots" content="noarchive">
+		<script src="../assets/js/jquery-1.8.3.min.js"></script>
+		<script src="../assets/js/layer/layer.js"></script>
+		<link rel="stylesheet" href="../assets/js/layer/skin/layer.css" id="layui_layer_skinlayercss">
+		<title>乐游科技数据管理系统</title>
+		<script type="text/javascript">
+			function toILvYou() {
+				window.location.href = 'http://www.ilvyougroup.com/page/index.jsp';
+			}
+
+			function toCrs() {
+				window.location.href = 'http://bpp.fadmin.cn/ilvyoucrs/web/loginSubmit.xhtml?username=kevin&password=lxl123456';
+			}
+
+			function toLhf() {
+				window.location.href = 'http://lhfpay.fadmin.cn/web/HomeAction_fromMg.xhtml?accountid=253&accountname=李小磊';
+			}
+
+			function toIlv() {
+				window.location.href = 'http://mg.fadmin.cn/Main/LoginFromFadmin.ashx?loginid=253&loginname=kevin';
+			}
+
+			function toTech() {
+				window.location.href = 'http://www.ilvyougroup.com/ilvyoutechback/web/HomeAction_fromMg.xhtml?accountid=253&accountname=李小磊';
+			}
+
+			function toUb() {
+				window.location.href = 'http://monitor.fadmin.cn/web/loginSubmit.xhtml?username=kevin&password=lxl123456';
+			}
+
+			function toCp() {
+				window.location.href = 'http://job.fadmin.cn/web/loginSubmit.xhtml?username=kevin&password=lxl123456';
+			}
+
+			function toEms() {
+				window.location.href = 'http://message.fadmin.cn/web/loginSubmit.xhtml?username=kevin&password=lxl123456';
+			}
+
+			function toRisk() {
+				window.location.href = 'http://ilvyourisk.fadmin.cn/ilvyourisk/web/loginSubmit.xhtml?username=kevin&password=lxl123456';
+			}
+
+			function toClientms() {
+				window.location.href = 'http://job.fadmin.cn/ilvyouclientms/web/loginSubmit.xhtml?username=kevin&password=lxl123456';
+				//window.location.href='http://10.8.18.253:8090/ilvyouclientms/web/loginSubmit.xhtml?username=kevin&password=lxl123456';
+			}
+
+			function toLxb() {
+				window.location.href = 'http://lxb.fadmin.cn/loginSubmit.xhtml?username=kevin&password=lxl123456';
+			}
+
+			/**重写ajax*/
+			function ajaxCustom(url, data, method, async) {
+				var result = null;
+				$.ajax({
+					url: url,
+					data: data,
+					type: method,
+					async: async,
+					contentType: "application/x-www-form-urlencoded; charset=UTF-8",
+					success: function(responseText) {
+						result = responseText;
+					},
+					error: function(msg) {},
+					complete: function(XHR, TS) {
+						XHR = null;
+					},
+				});
+				return result;
+			}
+		</script>
+	</head>
+
+	<body>
+		<div class="nav">
+			<div class="content">
+				<div class="logo" onclick="toILvYou()"></div>
+				<div class="fr">
+					<span>欢迎&nbsp;<abbr>李小磊</abbr>&nbsp;登录乐游科技管理系统</span> &nbsp;|&nbsp;
+					<a href="#" onclick="goout()">退出</a>
+					<p>
+						<script language="JavaScript" type="text/javascript">
+							var enabled = 0;
+							today = new Date();
+							var day;
+							var date;
+							if(today.getDay() == 0) day = " 星期日"
+							if(today.getDay() == 1) day = " 星期一"
+							if(today.getDay() == 2) day = " 星期二"
+							if(today.getDay() == 3) day = " 星期三"
+							if(today.getDay() == 4) day = " 星期四"
+							if(today.getDay() == 5) day = " 星期五"
+							if(today.getDay() == 6) day = " 星期六"
+							date = (today.getFullYear()) + "年" + (today.getMonth() + 1) + "月" + today.getDate() + "日" + day + "";
+							document.write(date);
+						</script>2016年12月19日 星期一
+					</p>
+				</div>
+			</div>
+		</div>
+			<div class="box">
+			<div class="main">
+				<div class="content">
+					<ul>
+						<li style="margin-left:0;">
+							<div>
+								<div class="box1 icon">
+									<img  src="../assets/images/ico2.png" />
+								</div>
+							</div>
+							<div class="space">
+								<div class="box1 icon">
+									<img src="../assets/images/ico6.png" />
+								</div>
+							</div>
+                         </li>
+						<li>
+							<div>
+								<div class="box2 icon">
+									<img src="../assets/images/ico3.png" />
+								</div>
+							</div>
+							<div class="space">
+								<div class="box2 icon">
+									<img src="../assets/images/ico7.png" />
+								</div>
+							</div>
+						</li>
+						<li>
+							<div>
+								<div class="box3 icon">
+									<img src="../assets/images/ico1.png" />
+								</div>
+							</div>
+							<div class="space">
+								<div class="box3 icon">
+									<img src="../assets/images/ico5.png" />
+								</div>
+							</div>
+						</li>
+						<li>
+							<div>
+								<div class="box4 icon">
+									<img src="../assets/images/ico4.png" />
+								</div>
+							</div>
+						</li>
+						<li style="margin-left:0;">
+							<div class="space">
+								<div class="box5 icon">
+									<img src="../assets/images/ico9.png" />
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="space">
+								<div class="box6 icon">
+									<img src="../assets/images/ico10.png" />
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="space">
+								<div class="box7 icon">
+									<img src="../assets/images/ico8.png" />
+								</div>
+							</div>
+						</li>
+					</ul>	
+				</div>
+			</div>
+			
+		</div>
+			<div class="bottom">
+					<p>Copyright 2013-2018 All Rights Reserved 安徽乐游网络科技有限公司及/或其关联公司及特许人 版权所有</p>			
+			</div>
+		
+		
+		<script>
+			var check = $("[name='checkbox']");
+			// var Height=$(document).height()-150;
+			// $('.warp').height(Height);
+			// $('.bottom').css("top",Height+70);
+			var bg = $(".chedkon i");
+			$(".checked").click(function() {
+				if(check.is(':checked')) {
+					bg.css("background-position", "-7px -135px");
+				} else {
+					bg.css("background-position", "-7px -110px");
+				}
+			})
+
+			/**
+function goout(){
+	 layer.confirm('是否退出？', {title:'&nbsp;'}, function(index){
+	       	$.ajax({											
+			url : 'HomeAction_toLogout.xhtml',										
+			data : '',										
+			type : 'POST',										
+			async : false,										
+			contentType : "application/x-www-form-urlencoded; charset=UTF-8",										
+			success : function(responseText) {										
+				result = responseText;									
+			},										
+			error : function(msg) {										
+			},										
+			complete : function(XHR, TS) {										
+				XHR = null;									
+			},									
+		});		
+	    	window.location.href='http://10.8.18.253:8082/ilvyoulogin/page/login/login.jsp';
+	      layer.close(index);
+	     });  
+}
+**/
+			function goout() {
+				layer.confirm('是否退出？', {
+					title: '&nbsp;'
+				}, function(index) {
+					//do something
+//					$.ajax({
+//						url: 'HomeAction_toLogout.xhtml',
+//						data: '',
+//						type: 'POST',
+//						async: false,
+//						contentType: "application/x-www-form-urlencoded; charset=UTF-8",
+//						success: function(responseText) {
+//							result = responseText;
+//						},
+//						error: function(msg) {},
+//						complete: function(XHR, TS) {
+//							XHR = null;
+//						},
+//					});
+					window.location.href = 'http://www.fadmin.cn/page/login/login.jsp';
+					layer.close(index);
+				});
+			}
+		</script>
+
+	</body>
+
+</html>
